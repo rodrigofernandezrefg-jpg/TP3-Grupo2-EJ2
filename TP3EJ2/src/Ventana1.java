@@ -63,7 +63,7 @@ public class Ventana1 extends javax.swing.JFrame {
 
         txtTemperatura.setText("grados");
 
-        btnConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos netbeans/icons8-aprobar-y-actualizar-64 (1).png"))); // NOI18N
+        btnConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-aprobar-y-actualizar-48.png"))); // NOI18N
         btnConvertir.setText("convertir");
 
         buttonGroupParaQueElijaUnaOpcion.add(Fahrenheit);
