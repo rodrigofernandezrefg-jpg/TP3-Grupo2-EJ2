@@ -32,6 +32,7 @@ public class Ventana1 extends javax.swing.JFrame {
         buttonGroup3 = new javax.swing.ButtonGroup();
         buttonGroupParaQueElijaUnaOpcion = new javax.swing.ButtonGroup();
         buttonGroup4 = new javax.swing.ButtonGroup();
+        buttonGroup5 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         txtTemperatura = new javax.swing.JTextField();
@@ -65,7 +66,7 @@ public class Ventana1 extends javax.swing.JFrame {
         btnConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos netbeans/icons8-aprobar-y-actualizar-64 (1).png"))); // NOI18N
         btnConvertir.setText("convertir");
 
-        buttonGroup1.add(Fahrenheit);
+        buttonGroupParaQueElijaUnaOpcion.add(Fahrenheit);
         Fahrenheit.setText("A Fahrenheit");
         Fahrenheit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,10 +74,10 @@ public class Ventana1 extends javax.swing.JFrame {
             }
         });
 
-        buttonGroup3.add(kelvin);
+        buttonGroupParaQueElijaUnaOpcion.add(kelvin);
         kelvin.setText("A Kelvin");
 
-        buttonGroup2.add(celsius);
+        buttonGroupParaQueElijaUnaOpcion.add(celsius);
         celsius.setText("A Celsius");
 
         buttonGroupParaQueElijaUnaOpcion.add(radianes);
@@ -205,6 +206,7 @@ public class Ventana1 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.ButtonGroup buttonGroup3;
     private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup buttonGroup5;
     private javax.swing.ButtonGroup buttonGroupParaQueElijaUnaOpcion;
     private javax.swing.JRadioButton celsius;
     private javax.swing.JButton jButton1;

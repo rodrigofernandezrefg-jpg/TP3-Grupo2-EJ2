@@ -17,6 +17,8 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
     </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -174,7 +176,7 @@
         <Component class="javax.swing.JRadioButton" name="Fahrenheit">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-              <ComponentRef name="buttonGroup1"/>
+              <ComponentRef name="buttonGroupParaQueElijaUnaOpcion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="A Fahrenheit"/>
           </Properties>
@@ -185,7 +187,7 @@
         <Component class="javax.swing.JRadioButton" name="kelvin">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-              <ComponentRef name="buttonGroup3"/>
+              <ComponentRef name="buttonGroupParaQueElijaUnaOpcion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="A Kelvin"/>
           </Properties>
@@ -193,7 +195,7 @@
         <Component class="javax.swing.JRadioButton" name="celsius">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-              <ComponentRef name="buttonGroup2"/>
+              <ComponentRef name="buttonGroupParaQueElijaUnaOpcion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="A Celsius"/>
           </Properties>
