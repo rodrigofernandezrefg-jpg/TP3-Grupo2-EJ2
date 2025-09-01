@@ -160,6 +160,10 @@ public class JFrameTemperatura extends javax.swing.JFrame {
                 double kelvin = temperatura + 273.15;
                 resultado = "La temperatura de Kelvin es: " +kelvin+ "ºK";
                  JOptionPane.showMessageDialog(this, resultado, "Mensaje", JOptionPane.INFORMATION_MESSAGE);
+            } else if(jRadioButtonRadianes.isSelected()){
+                double radianes = (temperatura * Math.PI)/180;
+                resultado = "El angulo en radianes es: "+radianes+ "RAD";
+                JOptionPane.showMessageDialog(this, resultado, "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             } else{
                 resultado = "Por favor seleccione una opcion de conversion";
                  JOptionPane.showMessageDialog(this, resultado, "Mensaje", JOptionPane.INFORMATION_MESSAGE);
