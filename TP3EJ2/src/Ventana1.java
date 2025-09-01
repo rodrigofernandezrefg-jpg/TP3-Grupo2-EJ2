@@ -50,7 +50,9 @@ public class Ventana1 extends javax.swing.JFrame {
         jPanel1.setAlignmentX(0.2F);
         jPanel1.setAlignmentY(0.2F);
 
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI", 3, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 51));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jLabel2.setText("CONVERSOR DE TEMPERATURA");
         jLabel2.setAlignmentX(0.15F);
@@ -81,7 +83,8 @@ public class Ventana1 extends javax.swing.JFrame {
         radianes.setText("A Radianes");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel3.setText("Ingrese la temperatura");
+        jLabel3.setForeground(new java.awt.Color(255, 0, 51));
+        jLabel3.setText("Ingrese la temperatura:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -107,11 +110,12 @@ public class Ventana1 extends javax.swing.JFrame {
                                     .addComponent(celsius)))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(btnConvertir))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(jLabel2)))
-                .addContainerGap(45, Short.MAX_VALUE))
+                                .addComponent(btnConvertir)))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 24, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 374, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
