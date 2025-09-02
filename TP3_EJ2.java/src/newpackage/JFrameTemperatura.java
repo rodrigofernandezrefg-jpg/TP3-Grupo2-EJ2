@@ -49,6 +49,7 @@ public class JFrameTemperatura extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jButtonConvertir.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
+        jButtonConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-aprobar-y-actualizar-48.png"))); // NOI18N
         jButtonConvertir.setText("Convertir");
         jButtonConvertir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

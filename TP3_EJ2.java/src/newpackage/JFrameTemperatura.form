@@ -95,6 +95,9 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Microsoft JhengHei" size="18" style="1"/>
         </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/icons8-aprobar-y-actualizar-48.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Convertir"/>
       </Properties>
       <Events>
